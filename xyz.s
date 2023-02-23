@@ -26,8 +26,8 @@ ldr q0, [x0]
 ldr q1, [x1]
 
 /*Un-comment if "W" component is non-static*/
-/*mov v0.4s[3], wzr*/
-/*mov v1.4s[3], wzr*/
+/*mov v0.4s[0], wzr*/
+/*mov v1.4s[0], wzr*/
 
 /*XYZ Speed = sqrt{[(x2 - x1)^2] + [(y2 - y1)^2] + [(z2 - z1)^2]}*/
 fsub v0.4s, v0.4s, v1.4s
